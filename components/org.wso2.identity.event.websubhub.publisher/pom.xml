@@ -20,7 +20,7 @@
     <parent>
         <artifactId>identity-event-publishers</artifactId>
         <groupId>org.wso2.identity.event.publishers</groupId>
-        <version>1.2.5-SNAPSHOT</version>
+        <version>1.2.5</version>
         <relativePath>../../pom.xml</relativePath>
     </parent>
 
