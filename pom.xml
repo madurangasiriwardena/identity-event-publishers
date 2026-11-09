@@ -37,7 +37,9 @@
         <module>components/org.wso2.identity.event.delivery.core</module>
         <module>components/org.wso2.identity.event.websubhub.publisher</module>
         <module>components/org.wso2.identity.event.http.publisher</module>
+        <module>components/org.wso2.identity.event.websub.direct.publisher</module>
         <module>features/http-event-publisher</module>
+        <module>features/websub-direct-event-publisher</module>
     </modules>
 
     <scm>
@@ -58,6 +60,11 @@
             <dependency>
                 <groupId>org.wso2.identity.event.publishers</groupId>
                 <artifactId>org.wso2.identity.event.delivery.core</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.wso2.identity.event.publishers</groupId>
+                <artifactId>org.wso2.identity.event.websub.direct.publisher</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
